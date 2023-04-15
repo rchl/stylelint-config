@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+const config = {
     extends: [
         'stylelint-config-standard',
         'stylelint-config-recommended-scss',
@@ -73,3 +74,5 @@ module.exports = {
         'value-keyword-case': null,
     },
 };
+
+module.exports = config;

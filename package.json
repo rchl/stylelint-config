@@ -8,7 +8,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "npm run lint && jest",
+    "test": "npm run lint && jest && tsc",
     "lint": "eslint .",
     "version": "git add .",
     "postversion": "git push --follow-tags"
@@ -52,6 +52,7 @@
     "eslint-config-rchl-base": "^1.0.0",
     "husky": "^4.3.8",
     "jest": "^29.5.0",
-    "stylelint": "^14.16.1"
+    "stylelint": "^14.16.1",
+    "typescript": "^5.0.4"
   }
 }
